@@ -2,6 +2,8 @@
 
 A Filament package that adds swipe-to-close functionality to **all Filament notifications** - both popup toast notifications and database notifications. Swipe left or right to dismiss with a smooth animation.
 
+![Swippable Notification](./resources/swippable-notification.png)
+
 ## Features
 
 - Swipe notifications to dismiss them (80px threshold)
