@@ -1,0 +1,40 @@
+{
+    "name": "sanzgrapher/swippable-notification",
+    "description": "A Filament plugin for swipe-to-close notifications. By Narayan Dhakal (sanzgrapher)",
+    "type": "library",
+    "require": {
+        "php": "^8.2",
+        "filament/filament": "^4.0"
+    },
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "filament",
+        "notification",
+        "swipe",
+        "dismissible",
+        "toast",
+        "ui"
+    ],
+    "homepage": "https://github.com/sanzgrapher/swippable-notification",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Sanzgrapher\\SwippableNotification\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Narayan Dhakal",
+            "email": "narayandhakal09@duck.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sanzgrapher\\SwippableNotification\\SwippableNotificationServiceProvider"
+            ]
+        }
+    }
+}
