@@ -8,9 +8,6 @@ class SwippableNotificationServiceProvider extends ServiceProvider
 {
     public function boot(): void
     {
-        // Register views
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'swippable-notification');
-
         // Publish assets
         $this->publishes([
             __DIR__.'/../resources/dist/init-swippable.js' => public_path('js/sanzgrapher/swippable-notification/init-swippable.js'),
